@@ -9,8 +9,10 @@
 💡 Um modelo em C# de consulta na API do Steam, onde é possível obeter os seguintes dados de um perfil público:
 
 *Total de jogos na conta
-*APIID
+APIID
+
 Name
+
 Playtime Forever (Tempo total jogado)
 Img: Logo
 Img: Ícone
