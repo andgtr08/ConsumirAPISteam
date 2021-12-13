@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Left.png" />
+    <None Remove="Right.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Left.png" />
+    <Resource Include="Resources\Right.png" />
+  </ItemGroup>
+
+</Project>

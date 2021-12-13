@@ -1,0 +1,26 @@
+﻿<Window x:Class="ConsumirAPISteam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ConsumirAPISteam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="381" Width="307" Background="#FF252525" WindowStyle="SingleBorderWindow" KeyDown="Window_KeyDown" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="188*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="IconImage" HorizontalAlignment="Left" Height="32" Margin="10,10,0,0" VerticalAlignment="Top" Width="32"/>
+        <Image x:Name="LogoImage" HorizontalAlignment="Left" Height="70" Margin="56,62,0,0" VerticalAlignment="Top" Width="185" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Label x:Name="labelAppID" Content="AppID:" HorizontalAlignment="Left" Margin="39,165,0,0" VerticalAlignment="Top" Foreground="White" Width="268" Grid.ColumnSpan="2"/>
+        <Label x:Name="labelTempoJogado" Content="Tempo Jogado:" HorizontalAlignment="Left" Margin="37,229,0,0" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2" Width="270"/>
+        <Image x:Name="btn_left" HorizontalAlignment="Left" Height="35" Margin="68,267,0,0" VerticalAlignment="Top" Width="35" Source="/Resources/Left.png" MouseDown="btn_left_MouseDown" MouseEnter="btn_left_MouseEnter" MouseLeave="btn_left_MouseLeave"/>
+        <Image x:Name="btn_right" HorizontalAlignment="Left" Height="34" Margin="88,267,0,0" VerticalAlignment="Top" Width="35" Source="/Resources/Right.png" MouseDown="btn_right_MouseDown" Grid.Column="1" MouseEnter="btn_right_MouseEnter" MouseLeave="btn_right_MouseLeave"/>
+        <Label x:Name="labelRegistro" Content="Label" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Foreground="White" Width="307" Grid.ColumnSpan="2"/>
+        <TextBlock x:Name="textJogo" HorizontalAlignment="Left" Margin="43,203,0,0" Text="Jogo:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Grid.ColumnSpan="2" Width="253" Height="39"/>
+        <TextBlock x:Name="TextTotalEntradas" HorizontalAlignment="Left" Margin="5,324,0,0" Text="Total de Entradas:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF838383" Grid.ColumnSpan="2" Width="258"/>
+
+    </Grid>
+</Window>
