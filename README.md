@@ -9,12 +9,12 @@
 💡 Um modelo em C# de consulta na API do Steam, onde é possível obeter os seguintes dados de um perfil público:
 
 *Total de jogos na conta
-APIID
-Name
-Playtime Forever (Tempo total jogado)
-Img: Logo
-Img: Ícone
-Community Visibility (Não implementado no modelo)
-Playtime - Windows (Não implementado no modelo)
-Playtime - Mac (Não implementado no modelo)
-Playtime - Linux (Não implementado no modelo)
+<p>APIID</p>
+<p>Name</p>
+<p>Playtime Forever (Tempo total jogado)</p>
+<p>Img: Logo</p>
+<p>Img: Ícone</p>
+<p>Community Visibility (Não implementado no modelo)</p>
+<p>Playtime - Windows (Não implementado no modelo)</p>
+<p>Playtime - Mac (Não implementado no modelo)</p>
+<p>Playtime - Linux (Não implementado no modelo)</p>
